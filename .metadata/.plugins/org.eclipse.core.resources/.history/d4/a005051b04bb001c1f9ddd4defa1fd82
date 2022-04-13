@@ -1,0 +1,30 @@
+package collectionframework;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class LearnArrayList {
+
+	public static void main(String[] args) {
+		
+//   ArrayList<String> studentsName= new ArrayList<>();
+//   // size = n
+////   n+n/2+1
+//    
+//    studentsName.add("Deepak");
+		
+		
+		List<Integer> List= new ArrayList();
+		List.add(1);
+		List.add(2);
+		List.add(3);
+		System.out.println(List);
+		List.add(4);// This will add 4 at end the List
+		System.out.println(List);
+		List.set(3,6);
+    
+    
+    
+	}
+
+}

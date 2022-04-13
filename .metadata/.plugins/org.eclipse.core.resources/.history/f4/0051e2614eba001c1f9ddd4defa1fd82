@@ -1,0 +1,31 @@
+package javavideo;
+
+public class firstjavaclass {
+
+	public static void main(String[] args) {
+//		System.out.println("Hello");
+//   int4bits float char string long8bits double,boolean
+		int age=18;
+		float avgmarks=90.345f;
+		char grade='A';
+		String name="Anuj";
+		boolean isvalid=false;
+		long bignumber=777788885558855l; //2^18
+//		
+//		System.out.println(age);
+//		System.out.println(avgmarks);
+//		operators  
+//		Arithmetic op +,-/,*,++ --
+//		int firstNumber=1234;
+//		int secondNumber=234;
+//		double sum=(double)firstNumber % (double)secondNumber;
+//		System.out.println(sum);
+//		
+		int a=12;
+		a++; // this stmt increaent by 1
+		a--;
+		System.out.println(a);
+		
+	}
+
+}

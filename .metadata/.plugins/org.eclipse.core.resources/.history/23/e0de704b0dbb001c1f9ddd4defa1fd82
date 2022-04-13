@@ -1,0 +1,20 @@
+package collectionframework;
+import java.util.*;
+//import java.util.LinkedList;
+//import java.util.Queue;
+
+public class LearnLinkList {
+
+	public static void main(String[] args) {
+		Queue<Integer> queue =new LinkedList<>();
+		
+		queue.offer(12); //offer is used to implement the valus
+		queue.offer(24);
+		queue.offer(36);
+		
+		System.out.println(queue);
+		
+
+	}
+
+}

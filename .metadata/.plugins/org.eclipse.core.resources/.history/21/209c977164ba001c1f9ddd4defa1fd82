@@ -1,0 +1,20 @@
+package oopsconcept;
+
+public class mainclass {
+
+	public static void main(String[] args) {
+		person p1 = new person();
+		p1.age=24;
+		p1.name="Deepak";
+		person p2 = new person();
+	System.out.println(p1.age + " "+ p1.name);
+	p2.age=31;
+	p2.name="gendo";
+	System.out.println(p2.age + " "+ p2.name);
+	}
+
+}
+class person{
+	String name;
+	int age;
+}

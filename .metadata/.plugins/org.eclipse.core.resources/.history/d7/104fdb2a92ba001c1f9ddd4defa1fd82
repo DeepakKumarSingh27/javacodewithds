@@ -1,0 +1,14 @@
+package basic;
+
+public class Interfaces implements car{
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}
+
+interface car {
+	void start();
+}

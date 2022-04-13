@@ -1,0 +1,12 @@
+package collectionframework;
+import java.util.*;
+public class PriorityQueue1 {
+
+	public static void main(String[] args) {
+ 
+priorityQueue<Integer> pq= new priorityQueue<>();		
+		
+		
+	}
+
+}
